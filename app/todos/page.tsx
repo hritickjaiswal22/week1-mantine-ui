@@ -190,7 +190,7 @@ export default function TodoPage() {
                       color="coral"
                       onClick={() => handleDelete(todo.id, index)}
                     >
-                      ␡
+                      ❎
                     </ActionIcon>
                   </Group>
                 </Paper>

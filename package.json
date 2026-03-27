@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "mock": "NEXT_PUBLIC_API_MOCKING=enabled next dev --turbopack"
+    "lint": "next lint"
   },
   "dependencies": {
     "@mantine/core": "8.3.16",
