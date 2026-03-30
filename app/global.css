@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@theme {
+  /* Mapping Mantine colors to Tailwind v4 */
+  --color-navy-50: var(--mantine-color-navy-0);
+  --color-navy-100: var(--mantine-color-navy-1);
+  --color-navy-200: var(--mantine-color-navy-2);
+  --color-navy-300: var(--mantine-color-navy-3);
+  --color-navy-400: var(--mantine-color-navy-4);
+  --color-navy-500: var(--mantine-color-navy-5);
+  --color-navy-600: var(--mantine-color-navy-6); /* Your primary shade */
+  --color-navy-700: var(--mantine-color-navy-7);
+  --color-navy-800: var(--mantine-color-navy-8);
+  --color-navy-900: var(--mantine-color-navy-9);
+
+  --color-teal: var(--mantine-color-teal-6);
+  --color-coral: var(--mantine-color-coral-6);
+
+  /* Mapping Spacing */
+  --spacing-xs: var(--mantine-spacing-xs);
+  --spacing-sm: var(--mantine-spacing-sm);
+  --spacing-md: var(--mantine-spacing-md);
+  --spacing-lg: var(--mantine-spacing-lg);
+  --spacing-xl: var(--mantine-spacing-xl);
+
+  /* Mapping Radius */
+  --radius-md: var(--mantine-radius-md);
+
+  /* Mapping Shadows */
+  --shadow-md: var(--mantine-shadow-md);
+}
