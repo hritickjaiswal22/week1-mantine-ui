@@ -1,4 +1,5 @@
 import "@mantine/core/styles.css";
+import "./global.css";
 import React from "react";
 import {
   MantineProvider,
@@ -6,6 +7,7 @@ import {
   mantineHtmlProps,
 } from "@mantine/core";
 import { theme } from "../theme";
+import { MSWProvider } from "../mocks/MSWProvider";
 
 export const metadata = {
   title: "Mantine Next.js template",
@@ -24,7 +26,9 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MSWProvider>
+          <MantineProvider theme={theme}>{children}</MantineProvider>
+        </MSWProvider>
       </body>
     </html>
   );
